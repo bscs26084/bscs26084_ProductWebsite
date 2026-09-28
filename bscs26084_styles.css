@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: azure
+    ;
+}
+
+.chat-box {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: gray;
+}
+
+#messages {
+    height: 200px;
+    border: 1px solid #eee;
+    margin-bottom: 5px;
+    padding: 3px;
+
+}

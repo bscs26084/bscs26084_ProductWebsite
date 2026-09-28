@@ -1,0 +1,175 @@
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.image-container {
+    margin-top: 20px;
+}
+
+.img1, .img2 {
+    display: block;      
+    margin-bottom: 20px;  
+    max-width: 100%;     
+    height: auto;
+}
+
+.site-footer {
+    text-align: left;
+    font-size: larger;
+    margin-top: 40px;    
+}
+
+
+
+.img2 {
+  left: 0%; 
+  margin-bottom: 2%;
+}
+
+
+.productHandbag {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+}
+.productShoes
+{
+  background-color: rgb(211, 211, 211);
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.productChair
+{
+  background-color: rgb(103, 59, 186);
+  width: 730px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px; }
+
+  .productLipstick
+  {
+  background-color: rgb(204, 55, 55);
+  width: 680px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  }
+  .ProductHairbrush
+  {
+  background-color: lightgrey;
+  width: 400px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;}
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.navbar {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.img1, .img2 {
+    display: block;      
+    margin-bottom: 20px;  
+    max-width: 100%;     
+    height: auto;
+}
+
+.img2 {
+    left: 0%; 
+    margin-bottom: 2%;
+}
+
+.site-footer {
+    text-align: left;
+    font-size: larger;
+    margin-top: 40px;    
+}
+
+.productHandbag {
+  
+    width: 300px;
+    border: 15px solid rgb(0, 0, 0);
+    padding: 50px;
+    margin: 20px;
+}
+
+.productShoes {
+   
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.productChair {
+  
+    width: 730px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px; 
+}
+
+.productLipstick {
+   
+    width: 680px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.ProductHairbrush {
+ 
+    width: 400px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.product-card {
+    border: 2px solid gray;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.in-stock {
+    color: green;
+    font-weight: bold;
+}
+
+.out-of-stock {
+    color:green;
+    font-weight: bold;
+}

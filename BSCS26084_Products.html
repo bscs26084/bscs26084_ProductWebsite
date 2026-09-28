@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BSCS26084_style.css">
+    <title>My &nbsp; Store</title>
+</head>
+<body>
+
+ 
+    <header class="navbar">
+        <div class="logo">My&nbspStore</div>
+        <nav>
+            <a href="BSCS26084_Home.html">Home</a>
+            <a href="BSCS23099_Products.html" class="active">Products</a>
+            <a href="BSCS26084_Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="products-container">
+
+        <div class="product-card product-handbag">
+            <img src="BSCS26084_image2.png" class="product-img" alt="Handbag">
+            <div class="product-details">
+                <h2 class="product-name">Handbag</h2>
+                <p class="product-price">$90</p>
+                <p class="product-status in-stock">Status: In Stock</p>
+                <p class="product-desc">
+                    Handbag is better in my opinion but you do you. This elegant handbag provides ample space for all your essentials while matching any premium outfit effortlessly. </p>
+           
+          
+       <button onclick="showstock(this)">Check Availability</button>
+<p id="stock-output"></p>
+            </div>
+        </div>
+
+        <div class="product-card product-shoes">
+            <img src="BSCS26084_image3.jpeg" class="product-img" alt="Shoes">
+            <div class="product-details">
+                <h2 class="product-name">Shoes</h2>
+                <p class="product-price">$140</p>
+                <p class="product-status in-stock">Status: In Stock</p>
+                <p class="product-desc">
+                    Track your daily activities or just buy a phone, a watch is barely useful nowadays. However, these running sneakers give you ultimate structural cushion and support.
+                </p>
+                <button onclick="showstock(this)">Check Availability</button>
+         <p id="stock-output"></p>
+            </div>
+        </div>
+
+        <div class="product-card product-chair">
+            <img src="BSCS26084_image4.png" class="product-img" alt="Chair">
+            <div class="product-details">
+                <h2 class="product-name">Chair</h2>
+                <p class="product-price">$70</p>
+                <p class="product-status out-of-stock">Status: Out of Stock</p>
+                <p class="product-desc">
+                    Used to sit in to rest for long sessions. An ergonomically optimized design meant to keep your posture perfect during intensive study or remote programming setups.
+                </p>
+                <button onclick="showstock(this)">Check Availability</button>
+            <p id="stock-output"></p>
+            </div>
+        </div>
+
+        <div class="product-card product-lipstick">
+            <img src="BSCS26084_image5.jpeg" class="product-img" alt="Lipstick">
+            <div class="product-details">
+                <h2 class="product-name">Lipstick</h2>
+                <p class="product-price">$45</p>
+                <p class="product-status in-stock">Status: In Stock</p>
+                <p class="product-desc">
+                    Used for coloring lips or something ask the females. Features a long-lasting matte finish texture designed to keep bold, vivid pigment looking fresh all day long.
+                </p>
+               <button onclick="showstock(this)">Check Availability</button>
+            <p id="stock-output"></p>
+            </div>
+        </div>
+
+        <div class="product-card product-hairbrush">
+            <img src="BSCS26084_image6.jpeg" class="product-img" alt="Hairbrush">
+            <div class="product-details">
+                <h2 class="product-name">Hairbrush</h2>
+                <p class="product-price">$60</p>
+                <p class="product-status in-stock">Status: In Stock</p>
+                <p class="product-desc">
+                    Use it to brush your Hair. Crafted with premium detangling bristles that smooth hair gently without pulling, making it perfect for every single hair type.
+                </p>
+               <button onclick="showstock(this)">Check Availability</button>
+            <p id="stock-output"></p>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="BSCS26084_script.js"></script>
+</body>
+</html>
